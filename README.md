@@ -20,7 +20,10 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 conda create -n video-background-removal python=3.11 -y
 conda activate video-background-removal
 ```
-
+torch安装(cuda)
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia -y
+```
 环境安装
 ```python
 pip install -r requirements.txt

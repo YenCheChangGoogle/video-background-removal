@@ -1,3 +1,5 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import gradio as gr
 from loadimg import load_img
 import spaces
@@ -16,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 torch.set_float32_matmul_precision("medium")
 device = "cuda" if torch.cuda.is_available() else "cpu"
-
+print(f"Running on device: {device}")
 # Load both BiRefNet models
 local_path = "./data"
 
