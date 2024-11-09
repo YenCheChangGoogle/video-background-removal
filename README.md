@@ -12,3 +12,26 @@ license: mit
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+---
+
+环境创建
+```python
+conda create -n video-background-removal python=3.11 -y
+conda activate video-background-removal
+```
+
+环境安装
+```python
+pip install -r requirements.txt
+```
+
+加速下载模型（如果不好访问hugging face，推荐先执行这个）
+```python
+python download.py
+```
+
+运行
+```python
+python app.py
+```
