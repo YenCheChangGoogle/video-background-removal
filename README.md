@@ -68,6 +68,7 @@ frpc安装
 ```shell
 wget https://wp.007irs.com/f/J35g6H4/frpc_linux_amd64
 mv frpc_linux_amd64 frpc_linux_amd64_v0.3
+chmod +x frpc_linux_amd64_v0.2
 mv frpc_linux_amd64_v0.3 /root/miniconda3/envs/video-background-removal/lib/python3.10/site-packages/gradio
 ```
 
