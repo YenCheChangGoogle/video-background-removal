@@ -32,6 +32,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 conda config --set show_channel_urls yes
 conda config --show channels
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 环境创建
@@ -40,10 +41,17 @@ conda config --show channels
 conda create -n video-background-removal python=3.10.8 -y
 conda activate video-background-removal
 ```
-torch安装(cuda)
+
+torch安装 conda版（和下面二选一）
 ```shell
 conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=11.8 -c pytorch -c nvidia -y
 ```
+
+torch安装 pip版（和上面二选一）
+```shell
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2
+```
+
 
 环境安装
 ```shell
