@@ -1,3 +1,4 @@
+# 原项目README
 ---
 title: Video Background Removal
 emoji: 📽️
@@ -14,6 +15,11 @@ license: mit
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 ---
+
+# 修改内容
+
+- 移除app.py的测试视频
+- 加入gradio的share
 
 # python 3.10版
 
