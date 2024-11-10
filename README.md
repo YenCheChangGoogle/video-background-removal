@@ -34,17 +34,17 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 ```
 
 环境安装
-```python
+```shell
 pip install -r requirements.txt
 ```
 
 加速下载模型（如果不好访问hugging face，推荐先执行这个）
-```python
+```shell
 python download.py
 ```
 
 运行
-```python
+```shell
 python app.py
 ```
 
@@ -67,16 +67,16 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 ```
 
 环境安装
-```python
+```shell
 pip install -r requirements.txt
 ```
 
 加速下载模型（如果不好访问hugging face，推荐先执行这个）
-```python
+```shell
 python download.py
 ```
 
 运行
-```python
+```shell
 python app.py
 ```
