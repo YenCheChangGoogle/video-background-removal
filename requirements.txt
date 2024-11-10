@@ -3,7 +3,7 @@ accelerate
 opencv-python
 spaces
 pillow
-numpy
+numpy<2
 timm
 kornia
 prettytable
@@ -14,5 +14,5 @@ transformers>=4.39.1
 gradio
 schedule
 loadimg>=0.1.1
-moviepy 
+moviepy
 pydub
