@@ -17,25 +17,36 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 # python 3.11版
 
+克隆项目
+```shell
+git clone https://ghp.ci/https://github.com/xy3xy3/video-background-removal
+```
+
 环境创建
-```python
+```shell
 conda create -n video-background-removal python=3.11 -y
 conda activate video-background-removal
 ```
 torch安装(cuda)
-```
+```shell
 conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia -y
 ```
 
 # python 3.10版
 
+克隆项目
+```shell
+git clone https://ghp.ci/https://github.com/xy3xy3/video-background-removal
+cd video-background-removal
+```
+
 环境创建
-```python
+```shell
 conda create -n video-background-removal python=3.10 -y
 conda activate video-background-removal
 ```
 torch安装(cuda)
-```
+```shell
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 ```
 
