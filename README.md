@@ -64,6 +64,13 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2
 pip install -r requirements.txt
 ```
 
+frpc安装
+```shell
+wget https://wp.007irs.com/f/J35g6H4/frpc_linux_amd64
+mv frpc_linux_amd64 frpc_linux_amd64_v0.3
+mv frpc_linux_amd64_v0.3 /root/miniconda3/envs/video-background-removal/lib/python3.10/site-packages/gradio
+```
+
 加速下载模型（如果不好访问hugging face，推荐先执行这个）
 ```shell
 python download.py
