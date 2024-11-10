@@ -20,6 +20,7 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 克隆项目
 ```shell
 git clone https://ghp.ci/https://github.com/xy3xy3/video-background-removal
+cd video-background-removal
 ```
 
 环境创建
